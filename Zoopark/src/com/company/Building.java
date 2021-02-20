@@ -43,6 +43,12 @@ public class Building {
         System.out.println("We can't put carnivore and herbivore animals in the same building!");
     }
 
-
-
+    @Override
+    public String toString() {
+        return "Building{" +
+                "isForCarnivore=" + isForCarnivore +
+                ", nrOfCages=" + nrOfCages +
+                ", cageList=" + cageList +
+                '}';
+    }
 }

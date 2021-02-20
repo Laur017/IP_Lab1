@@ -4,9 +4,11 @@ import java.util.List;
 
 public class CarnivoreCage implements CageInterface {
     private String meatType;
-    private List<Animal> animalList;
+    public CarnivoreCage(String meatType) {
+        this.meatType = meatType;
+    }
 
-      @Override
+    @Override
     public void feedAnimals() {
           System.out.println("Feeding animals with " + meatType);
     }
@@ -23,5 +25,12 @@ public class CarnivoreCage implements CageInterface {
         } else {
             System.out.println("It's ok, we can put it here.");
         }
+    }
+
+    @Override
+    public String toString() {
+        return "CarnivoreCage{" +
+                "meatType='" + meatType + '\'' +
+                '}';
     }
 }

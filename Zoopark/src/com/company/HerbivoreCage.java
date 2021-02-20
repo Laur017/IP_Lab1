@@ -3,6 +3,9 @@ package com.company;
 public class HerbivoreCage implements CageInterface {
     private String plantsType;
 
+    public HerbivoreCage(String plantsType) {
+        this.plantsType = plantsType;
+    }
 
     @Override
     public void feedAnimals() {
@@ -21,5 +24,12 @@ public class HerbivoreCage implements CageInterface {
         } else {
             System.out.println("It's ok, we can put it here.");
         }
+    }
+
+    @Override
+    public String toString() {
+        return "HerbivoreCage{" +
+                "plantsType='" + plantsType + '\'' +
+                '}';
     }
 }
