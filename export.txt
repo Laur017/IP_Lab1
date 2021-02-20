@@ -1,0 +1,8 @@
+Building{isForCarnivore=true, nrOfCages=3, cageList=[CarnivoreCage{meatType='beef'}, CarnivoreCage{meatType='chicken'}, CarnivoreCage{meatType='pork'}]}
+CarnivoreCage{meatType='beef'}
+CarnivoreCage{meatType='chicken'}
+CarnivoreCage{meatType='pork'}
+Building{isForCarnivore=false, nrOfCages=3, cageList=[HerbivoreCage{plantsType='carrots'}]}
+HerbivoreCage{plantsType='carrots'}
+Wolf -> eat: Eating meat; sound: Barking; move: Running;
+Wolf -> eat: Eating carrots; sound: Squeaking; move: Jumping;
