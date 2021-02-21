@@ -6,8 +6,6 @@ import java.io.PrintWriter;
 
 public class Zoopark {
 
-    //TODO export data and optionally add messages and capacity for cages similar to buildings
-
     public static void main(String[] args) {
         Wolf wolverine = new Wolf();
         Rabbit bugsBunny = new Rabbit();
